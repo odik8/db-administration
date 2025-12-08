@@ -22,13 +22,13 @@ PostgreSQL. Получение практических навыков упра�
 **Цель:** Создать новую базу данных lab02_db. Проверить ее начальный размер с помощью ```pg_database_size('lab02_db')```
 
 **Выполненные действия:**
-```bash
+```sql
 student=# CREATE DATABASE lab02_db;
 student=# SELECT pg_database_size('lab02_db');
 ```
 
 **Результаты:**
-```bash
+```sql
  pg_database_size 
 ------------------
           7602703
