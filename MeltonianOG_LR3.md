@@ -25,7 +25,7 @@ PostgreSQL. Получить практические навыки наблюд�
 - В сеансе 1 выполните тот же SELECT повторно. Сколько строк увидите? Завершите транзакцию в сеансе 1.
 
 **Выполненные действия:**
-```sql
+```bash
 student=# CREATE TABLE iso_test (id INT, data TEXT);
 CREATE TABLE
 student=# INSERT INTO iso_test VALUES (1, 'row1');
